@@ -1,0 +1,17 @@
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+.header-left img {
+    width: 20px;
+    margin-left: 15px;
+}
