@@ -1,4 +1,4 @@
-const products = [
+const product = [
     {id : 1, describtion: "کفش طبی" , Image : "./assets/images/02.23-4.jpg" },
     {id : 2, describtion: "کفش طبی" , Image : "./assets/images/02.23-4.jpg" },
     {id : 3, describtion: "کفش طبی" , Image : "./assets/images/02.23-4.jpg" },
