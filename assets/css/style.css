@@ -183,7 +183,7 @@
   height: 90px;
   border-radius: 10px;
   background-color: rgb(80, 80, 181);
-  display: flex;
+  justify-content: space-between;
 }
 
 .most-sell {
@@ -200,11 +200,8 @@
   height: 70px;
   background-color: rgb(8, 8, 113);
   border-radius: 5px;
-}
-
-.download .data {
-  font-size: 25px;
-  color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .foot {
