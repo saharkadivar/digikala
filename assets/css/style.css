@@ -1,17 +1,179 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 6 | @import "footer";
- *   |         ^^^^^^^^
- *   '
- *   assets\scss\style.scss 6:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 6 \2502  @import \"footer\";\d\a   \2502          ^^^^^^^^\a   \2575 \a   assets\\scss\\style.scss 6:9  root stylesheet";
+.navbar a {
+  display: flex;
+  text-decoration: none;
+  color: #757272;
 }
+
+.navbar img {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header-left img {
+  width: 20px;
+  margin-left: 15px;
+}
+
+.items img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.items p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.amazing-supermarket {
+  background-color: lightgray;
+  height: 100px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.amazing-supermarket-item img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.amazing-supermarket .read-more {
+  background-color: white;
+  width: 150px;
+  border-radius: 10px;
+  background-color: lightgreen;
+}
+
+.amazing-supermarket a {
+  text-decoration: none;
+  color: black;
+}
+
+.amazing img {
+  border-radius: 5px;
+}
+
+.topoffer p {
+  font-size: 25px;
+}
+
+.topoffer {
+  border: 1px solid #d3d1d1;
+  border-radius: 15px;
+  width: 100%;
+  height: 200px;
+}
+
+.topoffer .offer img {
+  width: 75px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  margin-top: 5px;
+}
+
+.suggest {
+  background-color: red;
+  border-radius: 10px;
+  height: max-content;
+  width: 100%;
+}
+
+.suggest a {
+  color: black;
+}
+
+.more-discount {
+  background-color: lightgreen;
+  width: 120px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.more-detail {
+  background-color: white;
+  width: 120px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.more-data img {
+  border-radius: 50%;
+}
+
+.green {
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: max-content;
+  width: 100%;
+}
+
+.categories {
+  width: 100%;
+  height: max-content;
+}
+
+.categories a {
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.brand {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #d3d1d1;
+}
+
+.digiclub {
+  height: 90px;
+  border-radius: 10px;
+  background-color: rgb(80, 80, 181);
+  justify-content: space-between;
+}
+
+.most-sell {
+  width: 100%;
+  border: 1px solid #d3d1d1;
+}
+
+.footer {
+  justify-content: space-between;
+}
+
+.download {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(8, 8, 113);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot {
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
